@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FinZen Backup</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<h1>FinZen Backup</h1>
+<p>FinZen Backup is a private, single-owner backup component of a personal finance application. It is not a public
+service: it is not offered to, and cannot be used by, other people.</p>
+<h2>What it does</h2>
+<p>Once a day, it copies <strong>already-encrypted</strong> backup archives of the owner's own application data into a
+folder in the owner's own Google Drive, verifies each copy, and keeps a bounded number of daily, weekly and monthly
+archives. Archives are encrypted before they leave the owner's server; Google Drive only ever stores ciphertext.</p>
+<h2>Google Drive access</h2>
+<p>The app requests only the <code>drive.file</code> permission ("See, edit, create, and delete only the specific Google
+Drive files you use with this app"). It cannot see or change any other file in the owner's Drive.</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+<footer>Personal, non-commercial project. No tracking, cookies or analytics are used on this site.</footer>
+</body></html>
